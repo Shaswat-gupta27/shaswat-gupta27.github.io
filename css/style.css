@@ -2700,7 +2700,8 @@ h6 {
 .profile_inner {
   border-bottom: 1px solid #eeeeee; }
   .profile_inner .personal_text {
-    padding-left: 95px; }
+    padding-left: 95px;
+    padding-right: 95px; }
 
 .personal_text h6 {
   font-size: 14px;
