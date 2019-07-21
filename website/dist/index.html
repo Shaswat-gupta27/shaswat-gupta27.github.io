@@ -59,8 +59,26 @@
                         <div class="grid-column span-12 mt1">
                             <div class="square">
                                 <div class="aspect-ratio__content bg--tan centered-content align--center text--primary-color">
-                                    <h1 class="mb0"><a href="" class="link">About Us</a></h1>
-                                    <!-- <p></p> -->
+                                    <!-- <h1 class="mb0"><a href="" class="link">About Us</a></h1> -->
+                                    <h1 class="mb0"><button id="myBtn">About Us</button>
+                                    <!-- The Modal -->
+                                    <div id="myModal" class="modal">
+                                      <!-- Modal content -->
+                                      <div class="modal-content">
+                                        <span class="close">&times;</span>
+                                        <p align="center">“Everyone has an idea. But it’s really about executing the idea and attracting other people to help you work on the idea.” - Jack Dorsey <br /> <br /></p>
+                                        <p>Shashwat Gupta</p>
+                                        <p>Shashwat is one of its kind child prodigies who are genuinely passionate about the ins and outs of the technology world. Just 18, he is well versed with most of the high tech gadgets as well as sophisticated engineering marvels. He always tries to be at the forefront of the technology space with his inquisitive nature and passion for his work. He also holds a B.Tech in Electronics. <br /> <br /></p> 
+                                        
+                                        <p>Manoj Gulati</p>
+                                        <p>Manoj graduated with a Ph.D. in Electronics from IIIT-Delhi in 2018. Having worked for more than ten years in the education, technology, and product design space, he is a seasoned professional having prior working experience with startups, MNCs, and R&D labs. He has several international awards, research papers, and patents in his name. He was visiting researcher at the University of Washington, Seattle (WA, USA) in 2016 and 2017 where he worked with Prof. Shwetak N. Patel and Sidhant Gupta from Microsoft Research, Redmond (WA, USA). Before this, he obtained his B.Tech (with honors) in Electronics in 2011. <br /> <br /></p> 
+                                              
+                                        <p><u>Advisors:<br /></u></p>
+                                        <p>Sidhant Gupta is a Research Scientist at Microsoft Research where he is building new sensing technologies for continuous health monitoring, and busy helping his colleagues make amazing software and hardware products. In June 2014, he graduated with a Ph.D. from the University of Washington's Computer Science & Engineering department specializing in Ubiquitous Computing. He was advised by the Shwetak N. Patel who is a joint faculty member in both CSE and EE. He was named one of Forbes "30 under 30" disruptors in technology by Forbes magazine in January 2012. He was awarded the Intel Science & Technology Fellowship for 2011-2012 and the A. Kumar & Roberta L. Bhasin fellowship in 2011. In 2009, he was awarded the Donald C. Whitworth endowed Fellowship by the CSE department. In 2009, he won the Madrona prize for the most "entrepreneurially interesting" graduate research presentation. <br /> <br /></p>
+                                        
+                                        <p>Sourabh Sankule is a Senior Engineering Manager, Systems Design at Western Digital (SanDisk). Having more than ten years of professional experience in some of the best tech companies in the world, he is a “guru” of modern-day memory devices and technologies. In 2008, he started Embedded Systems and Robotics Course for Hewlett Packard Educational Services, which is taken by more than 4000 undergraduates every year. He earned his B.Tech in EE from IIT Kanpur in 2009. <br /> <br /></p>
+                                      </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -107,8 +125,27 @@
                 <div class="grid-column offset-half span-12 mt1 order-1">
                     <div class="rectangle">
                         <div class="aspect-ratio__content bg--tan text--white align--center centered-content">
-                            <p class="h1 heading-font mb0 text--primary-color"><a href="" class="link">What we do?</a></p>
+                            <!-- <p class="h1 heading-font mb0 text--primary-color"><a href="" class="link">What we do?</a></p> -->
+                            <h1 class="mb0"><button id="myBtn1">What we do?</button>
                             <!-- <p class="h2 heading-font mb0 text--primary-color">???</p> -->
+                                <!-- The Modal -->
+                                <div id="myModal1" class="modal1">
+                                  <!-- Modal content -->
+                                  <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p align=center class="h2 heading-font">Two04 Solutions<br /></p>
+                                    <p>Two04 is a premier education, technology, and services company spearheaded by some of the most exceptional talents of this country. At Two04 our goal is to facilitate the best quality services for education and technology not just to foster a better understanding of the domain, but also to impart required skill-set to create a pool of job-ready professionals.<br /> <br /></p> 
+
+                                    <p>Our goal is to improve the state-of-the-art education system by imparting skills right at the beginning of the career, starting from k9 and k10. Apart from this, we also engage with young minds to design next-generation systems making their knowledge and skills applicable to the real-world challenges to have a better tomorrow. With mentorship from our proven industry leaders, we facilitate the finest technologies for learning for schools, colleges, corporate professionals, and R&D labs.<br /> <br /></p> 
+                                    
+                                    <p align="center">We truly admire this quote by James Cash Penney that “Theory is splendid, but until put into practice, it is valueless.” <br /> <br /></p>
+
+                                    <p><u>History:<br /></u></p>
+                                    <p>Two04 was started in a hostel at IIT Kanpur in 2019. However, it’s rooted a decade back in sub-urban areas of Delhi, the capital of our country, India. This seed was sown when one of our team members realized the challenges of acquiring quality education and skills in this country. Instead of thinking of problems, our collective passion drove us towards finding solutions to some of these primary issues and putting our minds to create technologies for the next billion. Our vision not only allowed us to improve the state-of-the-art education system but also catering to the technological solutions required in this century. <br /> <br /></p>
+                                    
+                                    <p>Please visit “Let's Explore” to know about our offerings. Also, if you would like to be a part of our journey, please write to Manoj Gulati [Manoj (at) two04.com]. <br /> <br /></p>
+                                  </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -182,6 +219,107 @@
         </footer>
 
     </div> <!-- End container -->
+
+<style>
+
+/* The Modal (background) */
+.modal{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal1{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  text-align: justify; 
+  color: #585c62;
+}
+
+/* The Close Button */
+.close{
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+var modal1 = document.getElementById("myModal1");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+var btn1 = document.getElementById("myBtn1");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// var span1 = document.getElementsByClassName("close")[1];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+btn1.onclick = function() {
+  modal1.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+// span.onclick = function() {
+//   modal1.style.display = "none";
+// }
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+window.onclick = function(event) {
+  if (event.target == modal1) {
+    modal1.style.display = "none";
+  }
+}
+
+</script>
 
     </body>
 </html>
