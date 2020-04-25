@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.pustakmandi.ebooksapp",
+    "sha256_cert_fingerprints":
+    ["DE:CE:2C:71:4C:9D:45:0D:39:31:63:01:85:1D:97:95:EC:88:C4:33:A3:78:2D:41:54:51:13:BD:B3:D3:10:F5"]
+  }
+}]
